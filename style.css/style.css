@@ -1,0 +1,84 @@
+main{
+    width: 100vw;
+    height: 100vh;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 60px;
+}
+p{
+    width: 60px;
+    height: 60px;
+}
+input{
+    width: 150px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+h1{
+    font-size: 2rem;
+}
+hr{
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.container{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo-cantainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.currency-converter{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black; 
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 50%;
+}
+.logo{
+    align-self: flex-end;
+}
+.operations{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#select-option{
+    width: 80px;
+    height: 60px;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+#equal{
+    width: 80px;
+    height: 60px;
+    font-weight: 900;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+#total{
+    width: 100px;
+    height: 60px;
+    display: inline;
+}

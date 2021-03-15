@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css/reset.css">
+    <link rel="stylesheet" href="/style.css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Przelicznik walut</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="logo-cantainer">
+                <div class="logo"> <img src="./images/8090bb46-143b-4bc7-8c5a-2e435517371c_200x200.png" alt="logo of app"></div>
+                <div class="currency-converter">
+                    <h1>Przelicznik walut</h1>
+                </div>
+            </div>
+            <div class="operations">
+                <input id ="num" type="number">
+                <select id="select-option">
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="CHF">CHF</option>
+                </select>
+                <button id="equal" >Przelicz</button>
+                <div>
+                    <p id="total"> </p>
+                </div>
+            </div>
+            <hr />
+        </section>
+
+    </main>
+    <script src="./script/index.js" async></script>
+</body>
+</html>
