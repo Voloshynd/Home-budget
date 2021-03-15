@@ -1,3 +1,13 @@
+document.body.onload = function() {
+    setTimeout(function(){
+        let preloader = document.getElementById("page-preloader");
+        if(!preloader.classList.contains("done")){
+            preloader.classList.add("done");
+        }
+    }, 1500);
+
+}
+
 const input = document.getElementById("num");
 const button = document.getElementById("equal");
 const select = document.getElementById("select-option");
@@ -40,11 +50,7 @@ button.addEventListener("click", ()=>{
         total.textContent = "TO " + Math.round(valueInput * currency.USD) + " PLN";
     }else if (valueSelect ==="CHF"){
         total.textContent = "TO " + Math.round(valueInput *  currency.CHF) + " PLN";
-    }  
-    // else (valueInput === 0) {
-    //     input.style.borderColor ="red";
-    // } 
-
+    } 
 })
 
 

@@ -10,24 +10,31 @@
     <title>Przelicznik walut</title>
 </head>
 <body>
+    <div id="page-preloader" class="preloader">
+        <div class ="loader"></div>
+    </div>
     <main>
         <section class="container">
             <div class="logo-cantainer">
-                <div class="logo"> <img src="./images/8090bb46-143b-4bc7-8c5a-2e435517371c_200x200.png" alt="logo of app"></div>
+                <img src="./images/8090bb46-143b-4bc7-8c5a-2e435517371c_200x200.png" alt="logo of app">
                 <div class="currency-converter">
                     <h1>Przelicznik walut</h1>
                 </div>
             </div>
             <div class="operations">
-                <input id ="num" type="number">
-                <select id="select-option">
-                    <option value="EUR">EUR</option>
-                    <option value="USD">USD</option>
-                    <option value="CHF">CHF</option>
-                </select>
-                <button id="equal" >Przelicz</button>
-                <div>
-                    <p id="total"> </p>
+                <div id="selections">
+                    <input id ="num" type="number" onclick="this.value=''">
+                    <select id="select-option">
+                        <option value="EUR">EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="CHF">CHF</option>
+                    </select>
+                </div>
+                <div id="converter">
+                    <button id="equal" >Przelicz</button>
+                    <div>
+                        <p id="total"> </p>
+                    </div>
                 </div>
             </div>
             <hr />
