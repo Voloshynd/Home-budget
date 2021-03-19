@@ -1,6 +1,10 @@
 main{
     width: 100vw;
     height: 100vh;
+    background-image: url("/images/pexels-miguel-á-padriñán-932261.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 p{
     font-size: 1.5rem;
@@ -149,6 +153,7 @@ option{
     #converter{
         width: 250px;
         margin-top: 20px;
+        margin-left: 5px;
         justify-content: space-between;
     }
 } 
