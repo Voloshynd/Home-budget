@@ -45,11 +45,11 @@ button.addEventListener("click", ()=>{
     let valueSelect = select.value;
     let valueInput = Number(input.value);
     if(valueSelect === "EUR"){
-        total.textContent = "TO " + Math.round(valueInput * currency.EUR) + " PLN";
+        total.textContent = "TO " + (valueInput * currency.EUR).toFixed(2) + " PLN";
     } else if (valueSelect ==="USD"){
-        total.textContent = "TO " + Math.round(valueInput * currency.USD) + " PLN";
-    }else if (valueSelect ==="CHF"){
-        total.textContent = "TO " + Math.round(valueInput *  currency.CHF) + " PLN";
+        total.textContent = "TO " + (valueInput * currency.USD).toFixed(2) + " PLN";
+    } else if (valueSelect ==="CHF"){
+        total.textContent = "TO " + (valueInput * currency.CHF).toFixed(2) + " PLN";
     } 
 })
 
